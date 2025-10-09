@@ -1,0 +1,1213 @@
+{
+  "American Government": {
+    "A: Principles of American Democracy": [
+      {
+        "number": 1,
+        "question_en": "What is the supreme law of the land?",
+        "answer_en": ["the Constitution"],
+        "question_tr": "Ülkenin en üstün hukuku nedir?",
+        "answer_tr": ["Anayasa"]
+      },
+      {
+        "number": 2,
+        "question_en": "What does the Constitution do?",
+        "answer_en": [
+          "sets up the government",
+          "defines the government",
+          "protects basic rights of Americans"
+        ],
+        "question_tr": "Anayasa ne yapar?",
+        "answer_tr": [
+          "hükûmeti kurar",
+          "hükûmeti tanımlar",
+          "Amerikalıların temel haklarını korur"
+        ]
+      },
+      {
+        "number": 3,
+        "question_en": "The idea of self-government is in the first three words of the Constitution. What are these words?",
+        "answer_en": ["We the People"],
+        "question_tr": "Anayasa'nın ilk üç kelimesinde hangi fikir vardır? Bu üç kelime nelerdir?",
+        "answer_tr": ["We the People (Biz halkız)"]
+      },
+      {
+        "number": 4,
+        "question_en": "What is an amendment?",
+        "answer_en": [
+          "a change (to the Constitution)",
+          "an addition (to the Constitution)"
+        ],
+        "question_tr": "Değişiklik (amendment) nedir?",
+        "answer_tr": [
+          "(Anayasaya) yapılan bir değişiklik",
+          "(Anayasaya) yapılan bir ek"
+        ]
+      },
+      {
+        "number": 5,
+        "question_en": "What do we call the first ten amendments to the Constitution?",
+        "answer_en": ["the Bill of Rights"],
+        "question_tr": "Anayasanın ilk on değişikliğine ne ad verilir?",
+        "answer_tr": ["Haklar Bildirgesi (Bill of Rights)"]
+      },
+      {
+        "number": 6,
+        "question_en": "What is one right or freedom from the First Amendment?",
+        "answer_en": [
+          "speech",
+          "religion",
+          "assembly",
+          "press",
+          "petition the government"
+        ],
+        "question_tr": "Birinci Değişiklik'ten (First Amendment) bir hak veya özgürlük söyleyiniz.",
+        "answer_tr": [
+          "konuşma",
+          "din",
+          "toplanma",
+          "basın",
+          "hükûmete dilekçe verme"
+        ]
+      },
+      {
+        "number": 7,
+        "question_en": "How many amendments does the Constitution have?",
+        "answer_en": ["twenty-seven (27)"],
+        "question_tr": "Anayasanın kaç değişikliği (amendment) vardır?",
+        "answer_tr": ["yirmi yedi (27)"]
+      },
+      {
+        "number": 8,
+        "question_en": "What did the Declaration of Independence do?",
+        "answer_en": [
+          "announced our independence (from Great Britain)",
+          "declared our independence (from Great Britain)",
+          "said that the United States is free (from Great Britain)"
+        ],
+        "question_tr": "Bağımsızlık Bildirgesi (Declaration of Independence) ne yaptı?",
+        "answer_tr": [
+          "bağımsızlığımızı ilan etti (Büyük Britanya'dan)",
+          "ABD'nin özgür olduğunu bildirdi"
+        ]
+      },
+      {
+        "number": 9,
+        "question_en": "What are two rights in the Declaration of Independence?",
+        "answer_en": ["life", "liberty", "pursuit of happiness"],
+        "question_tr": "Bağımsızlık Bildirgesi'nde (Declaration of Independence) belirtilen iki hak nedir?",
+        "answer_tr": ["yaşam", "özgürlük", "mutluluk peşinde koşma"]
+      },
+      {
+        "number": 10,
+        "question_en": "What is freedom of religion?",
+        "answer_en": [
+          "You can practice any religion, or not practice a religion."
+        ],
+        "question_tr": "Din özgürlüğü nedir?",
+        "answer_tr": [
+          "Herhangi bir dini uygulayabilirsiniz veya hiç dini uygulamayabilirsiniz."
+        ]
+      },
+      {
+        "number": 11,
+        "question_en": "What is the economic system in the United States?",
+        "answer_en": ["capitalist economy", "market economy"],
+        "question_tr": "Amerika Birleşik Devletleri'ndeki ekonomik sistem nedir?",
+        "answer_tr": ["kapitalist ekonomi", "piyasa ekonomisi"]
+      },
+      {
+        "number": 12,
+        "question_en": "What is the 'rule of law'?",
+        "answer_en": [
+          "Everyone must follow the law.",
+          "Leaders must obey the law.",
+          "Government must obey the law.",
+          "No one is above the law."
+        ],
+        "question_tr": "Hukukun üstünlüğü (rule of law) nedir?",
+        "answer_tr": [
+          "Herkes kanuna uymalıdır.",
+          "Liderler kanuna uymalıdır.",
+          "Hükûmet kanuna uymalıdır.",
+          "Hiç kimse yasanın üstünde değildir."
+        ]
+      }
+    ],
+
+    "B: System of Government": [
+      {
+        "number": 13,
+        "question_en": "Name one branch or part of the government.",
+        "answer_en": [
+          "Congress",
+          "legislative",
+          "President",
+          "executive",
+          "the courts",
+          "judicial"
+        ],
+        "question_tr": "Hükûmetin bir dalını/partisini söyleyiniz.",
+        "answer_tr": [
+          "Kongre",
+          "yasama (legislative)",
+          "Başkan (President)",
+          "yürütme (executive)",
+          "mahkemeler",
+          "yargı (judicial)"
+        ]
+      },
+      {
+        "number": 14,
+        "question_en": "What stops one branch of government from becoming too powerful?",
+        "answer_en": ["checks and balances", "separation of powers"],
+        "question_tr": "Hükûmetin bir kolunun çok güçlü olmasını ne engeller?",
+        "answer_tr": [
+          "kontroller ve dengeler (checks and balances)",
+          "güçlerin ayrılığı (separation of powers)"
+        ]
+      },
+      {
+        "number": 15,
+        "question_en": "Who is in charge of the executive branch?",
+        "answer_en": ["the President"],
+        "question_tr": "Yürütme koluna kim başkanlık eder?",
+        "answer_tr": ["Başkan"]
+      },
+      {
+        "number": 16,
+        "question_en": "Who makes federal laws?",
+        "answer_en": [
+          "Congress",
+          "Senate and House (of Representatives)",
+          "(U.S. or national) legislature"
+        ],
+        "question_tr": "Federal yasaları kim yapar?",
+        "answer_tr": [
+          "Kongre",
+          "Senato ve Temsilciler Meclisi",
+          "yasama organı"
+        ]
+      },
+      {
+        "number": 17,
+        "question_en": "What are the two parts of the U.S. Congress?",
+        "answer_en": ["the Senate and House (of Representatives)"],
+        "question_tr": "ABD Kongresi'nin iki bölümü nelerdir?",
+        "answer_tr": ["Senato ve Temsilciler Meclisi"]
+      },
+      {
+        "number": 18,
+        "question_en": "How many U.S. Senators are there?",
+        "answer_en": ["one hundred (100)"],
+        "question_tr": "Kaç tane ABD Senatörü vardır?",
+        "answer_tr": ["yüz (100)"]
+      },
+      {
+        "number": 19,
+        "question_en": "We elect a U.S. Senator for how many years?",
+        "answer_en": ["six (6)"],
+        "question_tr": "Bir ABD Senatörü kaç yıllığına seçilir?",
+        "answer_tr": ["altı (6) yıl"]
+      },
+      {
+        "number": 20,
+        "question_en": "Who is one of your state's U.S. Senators now?",
+        "answer_en": ["Answers will vary."],
+        "question_tr": "Eyaletinizin şu anki bir ABD Senatörü kimdir?",
+        "answer_tr": ["Cevaplar değişir (yerel senatörün adını yazınız)."]
+      },
+      {
+        "number": 21,
+        "question_en": "The House of Representatives has how many voting members?",
+        "answer_en": ["four hundred thirty-five (435)"],
+        "question_tr": "Temsilciler Meclisi'nin kaç oy hakkına sahip üyesi vardır?",
+        "answer_tr": ["dört yüz otuz beş (435)"]
+      },
+      {
+        "number": 22,
+        "question_en": "We elect a U.S. Representative for how many years?",
+        "answer_en": ["two (2)"],
+        "question_tr": "Bir ABD Temsilcisi kaç yıllığına seçilir?",
+        "answer_tr": ["iki (2) yıl"]
+      },
+      {
+        "number": 23,
+        "question_en": "Name your U.S. Representative.",
+        "answer_en": ["Answers will vary."],
+        "question_tr": "ABD Temsilcinizin adını söyleyiniz.",
+        "answer_tr": ["Cevaplar değişir (yerel temsilcinizin adını yazınız)."]
+      },
+      {
+        "number": 24,
+        "question_en": "Who does a U.S. Senator represent?",
+        "answer_en": ["all people of the state"],
+        "question_tr": "Bir ABD Senatörü kimi temsil eder?",
+        "answer_tr": ["eyaletin tüm insanlarını"]
+      },
+      {
+        "number": 25,
+        "question_en": "Why do some states have more Representatives than other states?",
+        "answer_en": [
+          "because of the state's population",
+          "because they have more people"
+        ],
+        "question_tr": "Bazı eyaletlerin diğerlerinden daha fazla Temsilciye sahip olmasının nedeni nedir?",
+        "answer_tr": [
+          "eyaletin nüfusu nedeniyle",
+          "daha fazla insan olduğu için"
+        ]
+      },
+      {
+        "number": 26,
+        "question_en": "We elect a President for how many years?",
+        "answer_en": ["four (4)"],
+        "question_tr": "Bir Başkan kaç yıllığına seçilir?",
+        "answer_tr": ["dört (4) yıl"]
+      },
+      {
+        "number": 27,
+        "question_en": "In what month do we vote for President?",
+        "answer_en": ["November"],
+        "question_tr": "Başkan için hangi ay oy kullanılır?",
+        "answer_tr": ["Kasım"]
+      },
+      {
+        "number": 28,
+        "question_en": "What is the name of the President of the United States now?",
+        "answer_en": ["Donald J. Trump"],
+        "question_tr": "Şu anki ABD Başkanının adı nedir?",
+        "answer_tr": ["Donald J. Trump"]
+      },
+      {
+        "number": 29,
+        "question_en": "What is the name of the Vice President of the United States now?",
+        "answer_en": ["J.D. Vance"],
+        "question_tr": "Şu anki ABD Başkan Yardımcısının adı nedir?",
+        "answer_tr": ["J.D. Vance"]
+      },
+      {
+        "number": 30,
+        "question_en": "If the President can no longer serve, who becomes President?",
+        "answer_en": ["the Vice President"],
+        "question_tr": "Eğer Başkan görev yapamazsa, kim Başkan olur?",
+        "answer_tr": ["Başkan Yardımcısı"]
+      },
+      {
+        "number": 31,
+        "question_en": "If both the President and the Vice President can no longer serve, who becomes President?",
+        "answer_en": ["the Speaker of the House"],
+        "question_tr": "Hem Başkan hem Başkan Yardımcısı görev yapamazsa, kim Başkan olur?",
+        "answer_tr": ["Temsilciler Meclisi Başkanı (Speaker of the House)"]
+      },
+      {
+        "number": 32,
+        "question_en": "Who is the Commander in Chief of the military?",
+        "answer_en": ["the President"],
+        "question_tr": "Silahlı kuvvetlerin Başkomutanı kimdir?",
+        "answer_tr": ["Başkan"]
+      },
+      {
+        "number": 33,
+        "question_en": "Who signs bills to become laws?",
+        "answer_en": ["the President"],
+        "question_tr": "Kanun tasarılarını kanun haline kim getirir (imzalar)?",
+        "answer_tr": ["Başkan"]
+      },
+      {
+        "number": 34,
+        "question_en": "Who vetoes bills?",
+        "answer_en": ["the President"],
+        "question_tr": "Kanun tasarılarını kim veto eder?",
+        "answer_tr": ["Başkan"]
+      },
+      {
+        "number": 35,
+        "question_en": "What does the President's Cabinet do?",
+        "answer_en": ["advises the President"],
+        "question_tr": "Başkanın Kabinesi ne yapar?",
+        "answer_tr": ["Başkana tavsiye verir"]
+      },
+      {
+        "number": 36,
+        "question_en": "What are two Cabinet-level positions?",
+        "answer_en": [
+          "Secretary of Agriculture",
+          "Secretary of Commerce",
+          "Secretary of Defense",
+          "Secretary of Education",
+          "Secretary of Energy",
+          "Secretary of Health and Human Services",
+          "Secretary of Homeland Security",
+          "Secretary of Housing and Urban Development",
+          "Secretary of the Interior",
+          "Secretary of Labor",
+          "Secretary of State",
+          "Secretary of Transportation",
+          "Secretary of the Treasury",
+          "Secretary of Veterans Affairs",
+          "Attorney General",
+          "Vice President"
+        ],
+        "question_tr": "İki kabine düzeyinde görev söyleyiniz.",
+        "answer_tr": [
+          "Tarım Bakanı (Secretary of Agriculture)",
+          "Ticaret Bakanı (Secretary of Commerce)",
+          "Savunma Bakanı (Secretary of Defense)",
+          "Eğitim Bakanı",
+          "Enerji Bakanı",
+          "Sağlık ve İnsan Hizmetleri Bakanı",
+          "İç Güvenlik Bakanı",
+          "Konut ve Kentsel Gelişim Bakanı",
+          "İçişleri Bakanı",
+          "Çalışma Bakanı",
+          "Dışişleri Bakanı",
+          "Ulaşım Bakanı",
+          "Hazine Bakanı",
+          "Gaziler İşleri Bakanı",
+          "Adalet Bakanı (Attorney General)",
+          "Başkan Yardımcısı"
+        ]
+      },
+      {
+        "number": 37,
+        "question_en": "What does the judicial branch do?",
+        "answer_en": [
+          "reviews laws",
+          "explains laws",
+          "resolves disputes (disagreements)",
+          "decides if a law goes against the Constitution"
+        ],
+        "question_tr": "Yargı kolu ne yapar?",
+        "answer_tr": [
+          "yasaları inceler",
+          "yasaları açıklar",
+          "anlaşmazlıkları çözer",
+          "bir yasanın Anayasaya aykırı olup olmadığını karar verir"
+        ]
+      },
+      {
+        "number": 38,
+        "question_en": "What is the highest court in the United States?",
+        "answer_en": ["the Supreme Court"],
+        "question_tr": "Amerika Birleşik Devletleri'ndeki en yüksek mahkeme hangisidir?",
+        "answer_tr": ["Yüksek Mahkeme (Supreme Court)"]
+      },
+      {
+        "number": 39,
+        "question_en": "How many justices are on the Supreme Court?",
+        "answer_en": [
+          "Visit uscis.gov/citizenship/testupdates for the number of justices on the Supreme Court."
+        ],
+        "question_tr": "Yüksek Mahkeme'de kaç yargıç vardır?",
+        "answer_tr": [
+          "Güncel sayı için uscis.gov/citizenship/testupdates adresine bakınız."
+        ]
+      },
+      {
+        "number": 40,
+        "question_en": "Who is the Chief Justice of the United States now?",
+        "answer_en": [
+          "Visit uscis.gov/citizenship/testupdates for the name of the Chief Justice of the United States."
+        ],
+        "question_tr": "Şu anki ABD Baş Yargıcı (Chief Justice) kimdir?",
+        "answer_tr": [
+          "Güncel isim için uscis.gov/citizenship/testupdates adresine bakınız."
+        ]
+      },
+      {
+        "number": 41,
+        "question_en": "Under our Constitution, some powers belong to the federal government. What is one power of the federal government?",
+        "answer_en": [
+          "to print money",
+          "to declare war",
+          "to create an army",
+          "to make treaties"
+        ],
+        "question_tr": "Anayasamıza göre bazı yetkiler federal hükûmete aittir. Federal hükûmetin bir yetkisi nedir?",
+        "answer_tr": [
+          "para basmak",
+          "savaş ilan etmek",
+          "ordu kurmak",
+          "antlaşma yapmak"
+        ]
+      },
+      {
+        "number": 42,
+        "question_en": "Under our Constitution, some powers belong to the states. What is one power of the states?",
+        "answer_en": [
+          "provide schooling and education",
+          "provide protection (police)",
+          "provide safety (fire departments)",
+          "give a driver's license",
+          "approve zoning and land use"
+        ],
+        "question_tr": "Anayasamıza göre bazı yetkiler eyaletlere aittir. Eyaletlerin bir yetkisi nedir?",
+        "answer_tr": [
+          "okul ve eğitim sağlamak",
+          "koruma sağlamak (polis)",
+          "güvenlik sağlamak (itfaiye)",
+          "sürücü belgesi vermek",
+          "imar ve arazi kullanımını onaylamak"
+        ]
+      },
+      {
+        "number": 43,
+        "question_en": "Who is the Governor of your state now?",
+        "answer_en": ["Henry McMaster"],
+        "question_tr": "Eyaletinizin şu anki Valisi kimdir?",
+        "answer_tr": ["Henry McMaster"]
+      },
+      {
+        "number": 44,
+        "question_en": "What is the capital of your state?",
+        "answer_en": ["Columbia"],
+        "question_tr": "Eyaletinizin başkenti nedir?",
+        "answer_tr": ["Columbia"]
+      },
+      {
+        "number": 45,
+        "question_en": "What are the two major political parties in the United States?",
+        "answer_en": ["Democratic and Republican"],
+        "question_tr": "Amerika Birleşik Devletleri'ndeki iki büyük siyasi parti hangileridir?",
+        "answer_tr": ["Demokrat ve Cumhuriyetçi (Republican)"]
+      },
+      {
+        "number": 46,
+        "question_en": "What is the political party of the President now?",
+        "answer_en": [
+          "Visit uscis.gov/citizenship/testupdates for the political party of the President."
+        ],
+        "question_tr": "Başkanın siyasi partisi hangisidir?",
+        "answer_tr": [
+          "Güncel bilgi için uscis.gov/citizenship/testupdates adresine bakınız."
+        ]
+      },
+      {
+        "number": 47,
+        "question_en": "What is the name of the Speaker of the House of Representatives now?",
+        "answer_en": [
+          "Visit uscis.gov/citizenship/testupdates for the name of the Speaker of the House of Representatives."
+        ],
+        "question_tr": "Temsilciler Meclisi Başkanı'nın (Speaker) adı nedir?",
+        "answer_tr": [
+          "Güncel isim için uscis.gov/citizenship/testupdates adresine bakınız."
+        ]
+      }
+    ],
+
+    "C: Rights and Responsibilities": [
+      {
+        "number": 48,
+        "question_en": "There are four amendments to the Constitution about who can vote. Describe one of them.",
+        "answer_en": [
+          "Citizens eighteen (18) and older (can vote).",
+          "You don't have to pay (a poll tax) to vote.",
+          "Any citizen can vote. (Women and men can vote.)",
+          "A male citizen of any race (can vote)."
+        ],
+        "question_tr": "Oy kullanma hakkı hakkında Anayasa'da dört değişiklik vardır. Bunlardan birini açıklayınız.",
+        "answer_tr": [
+          "On sekiz (18) yaş ve üstü vatandaşlar oy kullanabilir.",
+          "Oy kullanmak için (seçim vergisi) ödemek zorunda değilsiniz.",
+          "Her vatandaş oy kullanabilir (kadınlar ve erkekler).",
+          "Her ırktan erkek vatandaş oy kullanabiliriz gibi (Irk ayrımcılığına ilişkin düzenleme)."
+        ]
+      },
+      {
+        "number": 49,
+        "question_en": "What is one responsibility that is only for United States citizens?",
+        "answer_en": ["serve on a jury", "vote in a federal election"],
+        "question_tr": "Sadece ABD vatandaşlarına ait bir sorumluluk nedir?",
+        "answer_tr": ["jüri hizmeti yapmak", "federal seçimlerde oy kullanmak"]
+      },
+      {
+        "number": 50,
+        "question_en": "Name one right only for United States citizens.",
+        "answer_en": ["vote in a federal election", "run for federal office"],
+        "question_tr": "Sadece ABD vatandaşlarına ait bir hakkı söyleyiniz.",
+        "answer_tr": [
+          "federal seçimlerde oy kullanmak",
+          "federal görev için aday olmak"
+        ]
+      },
+      {
+        "number": 51,
+        "question_en": "What are two rights of everyone living in the United States?",
+        "answer_en": [
+          "freedom of expression",
+          "freedom of speech",
+          "freedom of assembly",
+          "freedom to petition the government",
+          "freedom of religion",
+          "the right to bear arms"
+        ],
+        "question_tr": "ABD'de yaşayan herkesin iki hakkı nedir?",
+        "answer_tr": [
+          "ifade özgürlüğü",
+          "konuşma özgürlüğü",
+          "toplanma özgürlüğü",
+          "hükûmete dilekçe verme hakkı",
+          "din özgürlüğü",
+          "silah taşıma hakkı"
+        ]
+      },
+      {
+        "number": 52,
+        "question_en": "What do we show loyalty to when we say the Pledge of Allegiance?",
+        "answer_en": ["the United States", "the flag"],
+        "question_tr": "Sadakat Yemini (Pledge of Allegiance) söylerken kime bağlılık gösteririz?",
+        "answer_tr": ["Amerika Birleşik Devletleri", "bayrağa"]
+      },
+      {
+        "number": 53,
+        "question_en": "What is one promise you make when you become a United States citizen?",
+        "answer_en": [
+          "give up loyalty to other countries",
+          "defend the Constitution and laws of the United States",
+          "obey the laws of the United States",
+          "serve in the U.S. military (if needed)",
+          "serve (do important work for) the nation (if needed)",
+          "be loyal to the United States"
+        ],
+        "question_tr": "ABD vatandaşı olduğunuzda verdiğiniz bir söz nedir?",
+        "answer_tr": [
+          "diğer ülkelere olan sadakati bırakmak",
+          "Anayasayı ve ABD yasalarını savunmak",
+          "ABD yasalarına uymak",
+          "gerekirse orduya hizmet etmek",
+          "gerekirse ülkeye hizmet etmek",
+          "ABD'ye sadık olmak"
+        ]
+      },
+      {
+        "number": 54,
+        "question_en": "How old do citizens have to be to vote for President?",
+        "answer_en": ["eighteen (18) and older"],
+        "question_tr": "Başkan için oy kullanmak için vatandaşların en az kaç yaşında olması gerekir?",
+        "answer_tr": ["on sekiz (18) ve üstü"]
+      },
+      {
+        "number": 55,
+        "question_en": "What are two ways that Americans can participate in their democracy?",
+        "answer_en": [
+          "vote",
+          "join a political party",
+          "help with a campaign",
+          "join a civic group",
+          "join a community group",
+          "give an elected official your opinion on an issue",
+          "call Senators and Representatives",
+          "publicly support or oppose an issue or policy",
+          "run for office",
+          "write to a newspaper"
+        ],
+        "question_tr": "Amerikalılar demokrasilerine katılmak için iki yol söyleyiniz.",
+        "answer_tr": [
+          "oy vermek",
+          "siyasi partiye katılmak",
+          "kampanyaya yardım etmek",
+          "sivil gruba katılmak",
+          "topluluk grubuna katılmak",
+          "seçilmiş bir yetkiliye görüşünüzü bildirmek",
+          "senatörleri ve temsilcileri aramak",
+          "bir konuyu kamuoyunda desteklemek veya karşı çıkmak",
+          "göreve aday olmak",
+          "gazeteye yazı yazmak"
+        ]
+      },
+      {
+        "number": 56,
+        "question_en": "When is the last day you can send in federal income tax forms?",
+        "answer_en": ["April 15"],
+        "question_tr": "Federal gelir vergisi formlarını gönderebileceğiniz son gün ne zamandır?",
+        "answer_tr": ["15 Nisan"]
+      },
+      {
+        "number": 57,
+        "question_en": "When must all men register for the Selective Service?",
+        "answer_en": [
+          "at age eighteen (18)",
+          "between eighteen (18) and twenty-six (26)"
+        ],
+        "question_tr": "Tüm erkekler Selective Service'e (askerlik kaydı) ne zaman kaydolmalıdır?",
+        "answer_tr": [
+          "on sekiz (18) yaşında",
+          "on sekiz (18) ile yirmi altı (26) yaşları arasında"
+        ]
+      }
+    ]
+  },
+
+  "American History": {
+    "A: Colonial Period and Independence": [
+      {
+        "number": 58,
+        "question_en": "What is one reason colonists came to America?",
+        "answer_en": [
+          "freedom",
+          "political liberty",
+          "religious freedom",
+          "economic opportunity",
+          "practice their religion",
+          "escape persecution"
+        ],
+        "question_tr": "Sömürgeciler Amerika'ya gelme nedenlerinden biri nedir?",
+        "answer_tr": [
+          "özgürlük",
+          "siyasi özgürlük",
+          "din özgürlüğü",
+          "ekonomik fırsat",
+          "dini uygulamak",
+          "zulümden kaçmak"
+        ]
+      },
+      {
+        "number": 59,
+        "question_en": "Who lived in America before the Europeans arrived?",
+        "answer_en": ["American Indians", "Native Americans"],
+        "question_tr": "Avrupalılar gelmeden önce Amerika'da kimler yaşıyordu?",
+        "answer_tr": [
+          "Kızılderililer (American Indians)",
+          "Yerli Amerikalılar (Native Americans)"
+        ]
+      },
+      {
+        "number": 60,
+        "question_en": "What group of people was taken to America and sold as slaves?",
+        "answer_en": ["Africans", "people from Africa"],
+        "question_tr": "Hangi insan grubu Amerika'ya götürülüp köle olarak satıldı?",
+        "answer_tr": ["Afrikalılar", "Afrika'dan gelen insanlar"]
+      },
+      {
+        "number": 61,
+        "question_en": "Why did the colonists fight the British?",
+        "answer_en": [
+          "because of high taxes (taxation without representation)",
+          "because the British army stayed in their houses (boarding, quartering)",
+          "because they didn’t have self-government"
+        ],
+        "question_tr": "Kolonistler neden İngilizlerle savaştı?",
+        "answer_tr": [
+          "yüksek vergiler nedeniyle (temsil olmadan vergilendirme)",
+          "İngiliz ordusunun evlerinde kalması (konaklama zorunluluğu)",
+          "kendi kendini yönetememeleri nedeniyle"
+        ]
+      },
+      {
+        "number": 62,
+        "question_en": "Who wrote the Declaration of Independence?",
+        "answer_en": ["(Thomas) Jefferson"],
+        "question_tr": "Bağımsızlık Bildirgesi'ni (Declaration of Independence) kim yazdı?",
+        "answer_tr": ["(Thomas) Jefferson"]
+      },
+      {
+        "number": 63,
+        "question_en": "When was the Declaration of Independence adopted?",
+        "answer_en": ["July 4, 1776"],
+        "question_tr": "Bağımsızlık Bildirgesi ne zaman kabul edildi?",
+        "answer_tr": ["4 Temmuz 1776"]
+      },
+      {
+        "number": 64,
+        "question_en": "There were 13 original states. Name three.",
+        "answer_en": [
+          "New Hampshire",
+          "Massachusetts",
+          "Rhode Island",
+          "Connecticut",
+          "New York",
+          "New Jersey",
+          "Pennsylvania",
+          "Delaware",
+          "Maryland",
+          "Virginia",
+          "North Carolina",
+          "South Carolina",
+          "Georgia"
+        ],
+        "question_tr": "Başlangıçta 13 eyalet vardı. Üçünü söyleyiniz.",
+        "answer_tr": [
+          "New Hampshire",
+          "Massachusetts",
+          "Rhode Island",
+          "Connecticut",
+          "New York",
+          "New Jersey",
+          "Pennsylvania",
+          "Delaware",
+          "Maryland",
+          "Virginia",
+          "North Carolina",
+          "South Carolina",
+          "Georgia"
+        ]
+      },
+      {
+        "number": 65,
+        "question_en": "What happened at the Constitutional Convention?",
+        "answer_en": [
+          "The Constitution was written.",
+          "The Founding Fathers wrote the Constitution."
+        ],
+        "question_tr": "Anayasa Konvansiyonu'nda (Constitutional Convention) ne oldu?",
+        "answer_tr": ["Anayasa yazıldı.", "Kurucu Babalar Anayasayı yazdı."]
+      },
+      {
+        "number": 66,
+        "question_en": "When was the Constitution written?",
+        "answer_en": ["1787"],
+        "question_tr": "Anayasa ne zaman yazıldı?",
+        "answer_tr": ["1787"]
+      },
+      {
+        "number": 67,
+        "question_en": "The Federalist Papers supported the passage of the U.S. Constitution. Name one of the writers.",
+        "answer_en": [
+          "(James) Madison",
+          "(Alexander) Hamilton",
+          "(John) Jay",
+          "Publius"
+        ],
+        "question_tr": "Federalist Papers, ABD Anayasası'nın geçişini destekledi. Yazarlardan birini söyleyiniz.",
+        "answer_tr": [
+          "(James) Madison",
+          "(Alexander) Hamilton",
+          "(John) Jay",
+          "Publius"
+        ]
+      },
+      {
+        "number": 68,
+        "question_en": "What is one thing Benjamin Franklin is famous for?",
+        "answer_en": [
+          "U.S. diplomat",
+          "oldest member of the Constitutional Convention",
+          "first Postmaster General of the United States",
+          "writer of 'Poor Richard’s Almanac'",
+          "started the first free libraries"
+        ],
+        "question_tr": "Benjamin Franklin hangi önemli şeylerle ünlüdür?",
+        "answer_tr": [
+          "ABD diplomatı",
+          "Anayasa Konvansiyonu'nun en yaşlı üyesi",
+          "ABD'nin ilk Posta Müdürü",
+          "'Poor Richard's Almanac' yazarı",
+          "ilk ücretsiz kütüphaneleri başlatan"
+        ]
+      },
+      {
+        "number": 69,
+        "question_en": "Who is the 'Father of Our Country'?",
+        "answer_en": ["(George) Washington"],
+        "question_tr": "'Ülkemizin Babası' kimdir?",
+        "answer_tr": ["(George) Washington"]
+      },
+      {
+        "number": 70,
+        "question_en": "Who was the first President?",
+        "answer_en": ["(George) Washington"],
+        "question_tr": "İlk Başkan kimdi?",
+        "answer_tr": ["(George) Washington"]
+      }
+    ],
+
+    "B: 1800s": [
+      {
+        "number": 71,
+        "question_en": "What territory did the United States buy from France in 1803?",
+        "answer_en": ["the Louisiana Territory", "Louisiana"],
+        "question_tr": "ABD 1803'te hangi bölgeyi Fransa'dan satın aldı?",
+        "answer_tr": ["Louisiana Toprağı (Louisiana)"]
+      },
+      {
+        "number": 72,
+        "question_en": "Name one war fought by the United States in the 1800s.",
+        "answer_en": [
+          "War of 1812",
+          "Mexican-American War",
+          "Civil War",
+          "Spanish-American War"
+        ],
+        "question_tr": "1800'lerde ABD'nin savaşlarından birini söyleyiniz.",
+        "answer_tr": [
+          "1812 Savaşı",
+          "Meksika-Amerika Savaşı",
+          "İç Savaş (Civil War)",
+          "İspanyol-Amerikan Savaşı"
+        ]
+      },
+      {
+        "number": 73,
+        "question_en": "Name the U.S. war between the North and the South.",
+        "answer_en": ["the Civil War", "the War between the States"],
+        "question_tr": "Kuzey ile Güney arasındaki ABD savaşı hangisidir?",
+        "answer_tr": [
+          "İç Savaş (Civil War)",
+          "Eyaletler Arası Savaş (War between the States)"
+        ]
+      },
+      {
+        "number": 74,
+        "question_en": "Name one problem that led to the Civil War.",
+        "answer_en": ["slavery", "economic reasons", "states' rights"],
+        "question_tr": "İç Savaşa yol açan sorunlardan birini söyleyiniz.",
+        "answer_tr": ["kölelik", "ekonomik nedenler", "eyalet hakları"]
+      },
+      {
+        "number": 75,
+        "question_en": "What was one important thing that Abraham Lincoln did?",
+        "answer_en": [
+          "freed the slaves (Emancipation Proclamation)",
+          "saved (or preserved) the Union",
+          "led the United States during the Civil War"
+        ],
+        "question_tr": "Abraham Lincoln'un önemli bir işi neydi?",
+        "answer_tr": [
+          "köleleri özgürleştirdi (Kurtuluş Bildirgesi)",
+          "Birliği korudu",
+          "İç Savaş sırasında ABD'ye liderlik etti"
+        ]
+      },
+      {
+        "number": 76,
+        "question_en": "What did the Emancipation Proclamation do?",
+        "answer_en": [
+          "freed the slaves",
+          "freed slaves in the Confederacy",
+          "freed slaves in the Confederate states",
+          "freed slaves in most Southern states"
+        ],
+        "question_tr": "Kurtuluş Bildirgesi (Emancipation Proclamation) ne yaptı?",
+        "answer_tr": [
+          "köleleri özgürleştirdi",
+          "Konfederasyondaki köleleri özgürleştirdi"
+        ]
+      },
+      {
+        "number": 77,
+        "question_en": "What did Susan B. Anthony do?",
+        "answer_en": ["fought for women’s rights", "fought for civil rights"],
+        "question_tr": "Susan B. Anthony ne yaptı?",
+        "answer_tr": [
+          "kadın hakları için mücadele etti",
+          "sivil haklar için mücadele etti"
+        ]
+      }
+    ],
+
+    "C: Recent American History and Other Important Historical Information": [
+      {
+        "number": 78,
+        "question_en": "Name one war fought by the United States in the 1900s.",
+        "answer_en": [
+          "World War I",
+          "World War II",
+          "Korean War",
+          "Vietnam War",
+          "(Persian) Gulf War"
+        ],
+        "question_tr": "1900'lerde ABD'nin savaşlarından birini söyleyiniz.",
+        "answer_tr": [
+          "I. Dünya Savaşı",
+          "II. Dünya Savaşı",
+          "Kore Savaşı",
+          "Vietnam Savaşı",
+          "Körfez Savaşı"
+        ]
+      },
+      {
+        "number": 79,
+        "question_en": "Who was President during World War I?",
+        "answer_en": ["(Woodrow) Wilson"],
+        "question_tr": "I. Dünya Savaşı sırasında Başkan kimdi?",
+        "answer_tr": ["(Woodrow) Wilson"]
+      },
+      {
+        "number": 80,
+        "question_en": "Who was President during the Great Depression and World War II?",
+        "answer_en": ["(Franklin) Roosevelt"],
+        "question_tr": "Büyük Buhran ve II. Dünya Savaşı sırasında Başkan kimdi?",
+        "answer_tr": ["(Franklin) Roosevelt"]
+      },
+      {
+        "number": 81,
+        "question_en": "Who did the United States fight in World War II?",
+        "answer_en": ["Japan, Germany, and Italy"],
+        "question_tr": "ABD II. Dünya Savaşı'nda kimlerle savaştı?",
+        "answer_tr": ["Japonya, Almanya ve İtalya"]
+      },
+      {
+        "number": 82,
+        "question_en": "Before he was President, Eisenhower was a general. What war was he in?",
+        "answer_en": ["World War II"],
+        "question_tr": "Başkan olmadan önce Eisenhower bir generaldi. Hangi savaşta görev yaptı?",
+        "answer_tr": ["II. Dünya Savaşı"]
+      },
+      {
+        "number": 83,
+        "question_en": "During the Cold War, what was the main concern of the United States?",
+        "answer_en": ["Communism"],
+        "question_tr": "Soğuk Savaş sırasında ABD'nin ana endişesi neydi?",
+        "answer_tr": ["Komünizm"]
+      },
+      {
+        "number": 84,
+        "question_en": "What movement tried to end racial discrimination?",
+        "answer_en": ["civil rights (movement)"],
+        "question_tr": "Irksal ayrımcılığı sona erdirmeye çalışan hareket nedir?",
+        "answer_tr": ["sivil haklar hareketi"]
+      },
+      {
+        "number": 85,
+        "question_en": "What did Martin Luther King, Jr. do?",
+        "answer_en": [
+          "fought for civil rights",
+          "worked for equality for all Americans"
+        ],
+        "question_tr": "Martin Luther King Jr. ne yaptı?",
+        "answer_tr": [
+          "sivil haklar için mücadele etti",
+          "tüm Amerikalılar için eşitlik için çalıştı"
+        ]
+      },
+      {
+        "number": 86,
+        "question_en": "What major event happened on September 11, 2001, in the United States?",
+        "answer_en": ["Terrorists attacked the United States."],
+        "question_tr": "11 Eylül 2001'de ABD'de hangi büyük olay oldu?",
+        "answer_tr": ["Teröristler Amerika Birleşik Devletleri'ne saldırdı."]
+      },
+      {
+        "number": 87,
+        "question_en": "Name one American Indian tribe in the United States.",
+        "answer_en": [
+          "Cherokee",
+          "Navajo",
+          "Sioux",
+          "Chippewa",
+          "Choctaw",
+          "Pueblo",
+          "Apache",
+          "Iroquois",
+          "Creek",
+          "Blackfeet",
+          "Seminole",
+          "Cheyenne",
+          "Arawak",
+          "Shawnee",
+          "Mohegan",
+          "Huron",
+          "Oneida",
+          "Lakota",
+          "Crow",
+          "Teton",
+          "Hopi",
+          "Inuit"
+        ],
+        "question_tr": "ABD'deki Kızılderili kabilelerinden birinin adını söyleyiniz.",
+        "answer_tr": [
+          "Cherokee",
+          "Navajo",
+          "Sioux",
+          "Chippewa",
+          "Choctaw",
+          "Pueblo",
+          "Apache",
+          "Iroquois",
+          "Creek",
+          "Blackfeet",
+          "Seminole",
+          "Cheyenne",
+          "Arawak",
+          "Shawnee",
+          "Mohegan",
+          "Huron",
+          "Oneida",
+          "Lakota",
+          "Crow",
+          "Teton",
+          "Hopi",
+          "Inuit"
+        ]
+      }
+    ]
+  },
+
+  "Integrated Civics": {
+    "A: Geography": [
+      {
+        "number": 88,
+        "question_en": "Name one of the two longest rivers in the United States.",
+        "answer_en": ["Missouri (River)", "Mississippi (River)"],
+        "question_tr": "ABD'deki en uzun iki nehirden birinin adını söyleyiniz.",
+        "answer_tr": ["Missouri (Nehrı)", "Mississippi (Nehrı)"]
+      },
+      {
+        "number": 89,
+        "question_en": "What ocean is on the West Coast of the United States?",
+        "answer_en": ["Pacific (Ocean)"],
+        "question_tr": "ABD'nin Batı Kıyısı'nda hangi okyanus vardır?",
+        "answer_tr": ["Pasifik Okyanusu"]
+      },
+      {
+        "number": 90,
+        "question_en": "What ocean is on the East Coast of the United States?",
+        "answer_en": ["Atlantic (Ocean)"],
+        "question_tr": "ABD'nin Doğu Kıyısı'nda hangi okyanus vardır?",
+        "answer_tr": ["Atlantik Okyanusu"]
+      },
+      {
+        "number": 91,
+        "question_en": "Name one U.S. territory.",
+        "answer_en": [
+          "Puerto Rico",
+          "U.S. Virgin Islands",
+          "American Samoa",
+          "Northern Mariana Islands",
+          "Guam"
+        ],
+        "question_tr": "Bir ABD toprağı (territory) söyleyiniz.",
+        "answer_tr": [
+          "Porto Riko",
+          "ABD Virjin Adaları",
+          "Amerikan Samoası",
+          "Kuzey Mariana Adaları",
+          "Guam"
+        ]
+      },
+      {
+        "number": 92,
+        "question_en": "Name one state that borders Canada.",
+        "answer_en": [
+          "Maine",
+          "New Hampshire",
+          "Vermont",
+          "New York",
+          "Pennsylvania",
+          "Ohio",
+          "Michigan",
+          "Minnesota",
+          "North Dakota",
+          "Montana",
+          "Idaho",
+          "Washington",
+          "Alaska"
+        ],
+        "question_tr": "Kanada ile sınırı olan bir eyalet söyleyiniz.",
+        "answer_tr": [
+          "Maine",
+          "New Hampshire",
+          "Vermont",
+          "New York",
+          "Pennsylvania",
+          "Ohio",
+          "Michigan",
+          "Minnesota",
+          "North Dakota",
+          "Montana",
+          "Idaho",
+          "Washington",
+          "Alaska"
+        ]
+      },
+      {
+        "number": 93,
+        "question_en": "Name one state that borders Mexico.",
+        "answer_en": ["California", "Arizona", "New Mexico", "Texas"],
+        "question_tr": "Meksika ile sınırı olan bir eyalet söyleyiniz.",
+        "answer_tr": ["California", "Arizona", "New Mexico", "Texas"]
+      },
+      {
+        "number": 94,
+        "question_en": "What is the capital of the United States?",
+        "answer_en": ["Washington, D.C."],
+        "question_tr": "Amerika Birleşik Devletleri'nin başkenti neresidir?",
+        "answer_tr": ["Washington, D.C."]
+      },
+      {
+        "number": 95,
+        "question_en": "Where is the Statue of Liberty?",
+        "answer_en": ["New York (Harbor)", "Liberty Island"],
+        "question_tr": "Özgürlük Heykeli (Statue of Liberty) nerededir?",
+        "answer_tr": ["New York (Liman)", "Liberty Island"]
+      }
+    ],
+
+    "B: Symbols": [
+      {
+        "number": 96,
+        "question_en": "Why does the flag have 13 stripes?",
+        "answer_en": [
+          "because there were 13 original colonies",
+          "because the stripes represent the original colonies"
+        ],
+        "question_tr": "Bayrağın 13 şeriti olmasının nedeni nedir?",
+        "answer_tr": [
+          "çünkü 13 orijinal koloni vardı",
+          "şeritler orijinal kolonileri temsil eder"
+        ]
+      },
+      {
+        "number": 97,
+        "question_en": "Why does the flag have 50 stars?",
+        "answer_en": [
+          "because there is one star for each state",
+          "because each star represents a state",
+          "because there are 50 states"
+        ],
+        "question_tr": "Bayrağın 50 yıldız olmasının nedeni nedir?",
+        "answer_tr": [
+          "her eyalet için bir yıldız olduğu için",
+          "her yıldız bir eyaleti temsil eder",
+          "çünkü 50 eyalet vardır"
+        ]
+      },
+      {
+        "number": 98,
+        "question_en": "What is the name of the national anthem?",
+        "answer_en": ["The Star-Spangled Banner"],
+        "question_tr": "Ulusal marşın adı nedir?",
+        "answer_tr": ["The Star-Spangled Banner"]
+      }
+    ],
+
+    "C: Holidays": [
+      {
+        "number": 99,
+        "question_en": "When do we celebrate Independence Day?",
+        "answer_en": ["July 4"],
+        "question_tr": "Bağımsızlık Günü (Independence Day) ne zaman kutlanır?",
+        "answer_tr": ["4 Temmuz"]
+      },
+      {
+        "number": 100,
+        "question_en": "Name two national U.S. holidays.",
+        "answer_en": [
+          "New Year’s Day",
+          "Martin Luther King, Jr. Day",
+          "Presidents’ Day",
+          "Memorial Day",
+          "Independence Day",
+          "Labor Day",
+          "Columbus Day",
+          "Veterans Day",
+          "Thanksgiving",
+          "Christmas"
+        ],
+        "question_tr": "İki ulusal ABD tatili söyleyiniz.",
+        "answer_tr": [
+          "Yeni Yıl Günü",
+          "Martin Luther King Jr. Günü",
+          "Başkanlar Günü",
+          "Anma Günü (Memorial Day)",
+          "Bağımsızlık Günü",
+          "İşçi Bayramı (Labor Day)",
+          "Columbus Günü",
+          "Gaziler Günü (Veterans Day)",
+          "Şükran Günü (Thanksgiving)",
+          "Noel (Christmas)"
+        ]
+      }
+    ]
+  }
+}

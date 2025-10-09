@@ -1,0 +1,228 @@
+import { useState } from "react";
+import questionsData from "./questions.json";
+import { flattenQuestions } from "./utils/questionUtils";
+import type { QuestionState } from "./types";
+import { Progress } from "./components/Progress";
+import "./App.css";
+
+// Helper function to truncate text
+const truncateText = (text: string, maxLength: number) => {
+  return text.length > maxLength ? text.substring(0, maxLength) + '...' : text;
+};
+
+const questions = flattenQuestions(questionsData);
+
+function App() {
+  const [state, setState] = useState<QuestionState>({
+    currentQuestion: 0,
+    score: 0,
+    answeredQuestions: [],
+    showTranslation: true,
+    showAnswers: false,
+    showNavigator: false,
+  });
+
+  const [isDarkMode, setIsDarkMode] = useState(false);
+
+  const currentQuestion = questions[state.currentQuestion];
+
+  return (
+    <div className={`app ${isDarkMode ? "dark" : "light"}`}>
+      <header>
+        <h1>US Citizenship Test Practice</h1>
+        <div className="header-controls">
+          <div className="question-navigator">
+            <button 
+              className="navigator-toggle"
+              onClick={() => setState(prev => ({ ...prev, showNavigator: !prev.showNavigator }))}
+            >
+              📑 Questions List
+            </button>
+            {state.showNavigator && (
+              <>
+                <div 
+                  className="questions-overlay" 
+                  onClick={() => setState(prev => ({ ...prev, showNavigator: false }))} 
+                />
+                <div className="questions-dropdown">
+                  <div className="questions-dropdown-header">
+                    <span className="questions-dropdown-title">US Citizenship Test Questions</span>
+                    <button 
+                      className="close-button"
+                      onClick={() => setState(prev => ({ ...prev, showNavigator: false }))}
+                      aria-label="Close questions list"
+                    >
+                      ✕
+                    </button>
+                  </div>
+                  <div className="questions-list">
+                    {Object.entries(questionsData).map(([category, categoryData]) => (
+                      <div key={category}>
+                        <div className="category-header">
+                          {category}
+                        </div>
+                        {Object.entries(categoryData).map(([subcategory, questions]) => (
+                          <div key={subcategory}>
+                            {questions.map((q) => {
+                              const index = q.number - 1;
+                              const categoryClass = `category-${category.toLowerCase().replace(/\s+/g, '-')}`;
+                              const subcategoryClass = `subcategory-${subcategory.split(':')[0].trim().toLowerCase()}`;
+                              
+                              return (
+                                <button
+                                  key={q.number}
+                                  className={`question-item ${categoryClass} ${subcategoryClass} ${
+                                    index === state.currentQuestion ? 'active' : ''
+                                  }`}
+                                  onClick={() => {
+                                    setState(prev => ({
+                                      ...prev,
+                                      currentQuestion: q.number - 1,
+                                      showNavigator: false
+                                    }));
+                                  }}
+                                >
+                                  <span className="question-number">#{q.number}</span>
+                                  <span className="question-preview">
+                                    <small style={{ opacity: 0.7 }}>{subcategory.split(':')[1]?.trim()} • </small>
+                                    {truncateText(q.question_en, 40)}
+                                  </span>
+                                </button>
+                              );
+                            })}
+                          </div>
+                        ))}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </>
+            )}
+          </div>
+          <button
+            className="theme-toggle"
+            onClick={() => setIsDarkMode(prev => !prev)}
+          >
+            {isDarkMode ? "☀️ Light" : "🌙 Dark"} Mode
+          </button>
+        </div>
+      </header>
+
+      <main className="content">
+        <div className="main-container">
+          <div className="question-section">
+            <div className="question-container">
+              <div className="question-english">
+                <h2>Question {currentQuestion.number}</h2>
+                <p>{currentQuestion.question_en}</p>
+                {state.showAnswers && (
+                  <div className="answers">
+                    <h3>Answers:</h3>
+                    <ul>
+                      {currentQuestion.answer_en.map((answer, index) => (
+                        <li key={index}>{answer}</li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+              </div>
+
+              {state.showTranslation && (
+                <div className="question-turkish">
+                  <h2>Soru {currentQuestion.number}</h2>
+                  <p>{currentQuestion.question_tr}</p>
+                  {state.showAnswers && (
+                    <div className="answers">
+                      <h3>Cevaplar:</h3>
+                      <ul>
+                        {currentQuestion.answer_tr.map((answer, index) => (
+                          <li key={index}>{answer}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+                </div>
+              )}
+            </div>
+
+            <div className="controls">
+              <div className="navigation-buttons">
+                <button
+                  disabled={state.currentQuestion === 0}
+                  onClick={() =>
+                    setState(prev => ({
+                      ...prev,
+                      currentQuestion: prev.currentQuestion - 1,
+                    }))
+                  }
+                >
+                  Previous
+                </button>
+                <button
+                  onClick={() =>
+                    setState(prev => ({
+                      ...prev,
+                      showAnswers: !prev.showAnswers,
+                    }))
+                  }
+                >
+                  {state.showAnswers ? "Hide" : "Show"} Answers
+                </button>
+                <button
+                  onClick={() =>
+                    setState(prev => ({
+                      ...prev,
+                      showTranslation: !prev.showTranslation,
+                    }))
+                  }
+                >
+                  {state.showTranslation ? "Hide" : "Show"} Translation
+                </button>
+                <button
+                  disabled={state.currentQuestion === questions.length - 1}
+                  onClick={() =>
+                    setState(prev => ({
+                      ...prev,
+                      currentQuestion: prev.currentQuestion + 1,
+                    }))
+                  }
+                >
+                  Next
+                </button>
+              </div>
+              {state.currentQuestion === questions.length - 1 && (
+                <>
+                  <div className="congratulations">
+                    🎉 Congratulations! You've completed all questions! 🎉
+                  </div>
+                  <button
+                    className="restart-button"
+                    onClick={() =>
+                      setState({
+                        currentQuestion: 0,
+                        score: 0,
+                        answeredQuestions: [],
+                        showTranslation: true,
+                        showAnswers: false,
+                        showNavigator: false,
+                      })
+                    }
+                  >
+                    Start New Practice
+                  </button>
+                </>
+              )}
+            </div>
+          </div>
+
+          <Progress
+            currentQuestion={state.currentQuestion}
+            totalQuestions={questions.length}
+          />
+        </div>
+      </main>
+    </div>
+  );
+}
+
+export default App;

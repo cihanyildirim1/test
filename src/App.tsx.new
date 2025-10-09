@@ -1,0 +1,116 @@
+import { useState } from "react";
+import type { Question, QuestionState } from "./types";
+import questionsData from "./questions.json";
+import { flattenQuestions } from "./utils/questionUtils";
+import "./App.css";
+
+const questions = flattenQuestions(questionsData);
+
+function App() {
+  const [state, setState] = useState<QuestionState>({
+    currentQuestion: 0,
+    score: 0,
+    answeredQuestions: [],
+    showTranslation: true,
+  });
+
+  const currentQuestion = questions[state.currentQuestion];
+
+  return (
+    <div className='app'>
+      <header>
+        <h1>US Citizenship Test Practice</h1>
+      </header>
+
+      <main className='content'>
+        <div className='main-container'>
+          <div className='question-section'>
+            <div className='question-container'>
+              <div className='question-english'>
+                <h2>Question {currentQuestion.number}</h2>
+                <p>{currentQuestion.question_en}</p>
+                <div className='answers'>
+                  <h3>Answers:</h3>
+                  <ul>
+                    {currentQuestion.answer_en.map((answer, index) => (
+                      <li key={index}>{answer}</li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+
+              {state.showTranslation && (
+                <div className='question-turkish'>
+                  <h2>Soru {currentQuestion.number}</h2>
+                  <p>{currentQuestion.question_tr}</p>
+                  <div className='answers'>
+                    <h3>Cevaplar:</h3>
+                    <ul>
+                      {currentQuestion.answer_tr.map((answer, index) => (
+                        <li key={index}>{answer}</li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
+              )}
+            </div>
+
+            <div className='controls'>
+              <button
+                disabled={state.currentQuestion === 0}
+                onClick={() =>
+                  setState((prev) => ({
+                    ...prev,
+                    currentQuestion: prev.currentQuestion - 1,
+                  }))
+                }
+              >
+                Previous
+              </button>
+              <button
+                onClick={() =>
+                  setState((prev) => ({
+                    ...prev,
+                    showTranslation: !prev.showTranslation,
+                  }))
+                }
+              >
+                {state.showTranslation ? "Hide" : "Show"} Translation
+              </button>
+              <button
+                disabled={state.currentQuestion === questions.length - 1}
+                onClick={() =>
+                  setState((prev) => ({
+                    ...prev,
+                    currentQuestion: prev.currentQuestion + 1,
+                  }))
+                }
+              >
+                Next
+              </button>
+            </div>
+          </div>
+
+          <div className='progress-section'>
+            <div className='progress-info'>
+              <h3>Progress</h3>
+              <p>Question {currentQuestion.number} of {questions.length}</p>
+            </div>
+            <div className='progress-bar'>
+              <div 
+                className='progress-fill'
+                style={{ width: `${(currentQuestion.number / questions.length) * 100}%` }}
+              />
+            </div>
+            <div className='progress-stats'>
+              <p>Completed: {currentQuestion.number}/{questions.length}</p>
+              <p>Remaining: {questions.length - currentQuestion.number}</p>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  );
+}
+
+export default App;

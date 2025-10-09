@@ -1,0 +1,43 @@
+import { useCallback, useEffect, useState } from "react";
+
+export const useSpeech = () => {
+  const [speaking, setSpeaking] = useState(false);
+  const [supported, setSupported] = useState(false);
+
+  useEffect(() => {
+    // Check if speech synthesis is supported
+    setSupported("speechSynthesis" in window);
+  }, []);
+
+  const speak = useCallback(
+    (text: string, lang: string = "en-US") => {
+      if (!supported) return;
+
+      // Cancel any ongoing speech
+      window.speechSynthesis.cancel();
+
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = lang;
+
+      utterance.onstart = () => setSpeaking(true);
+      utterance.onend = () => setSpeaking(false);
+      utterance.onerror = () => setSpeaking(false);
+
+      window.speechSynthesis.speak(utterance);
+    },
+    [supported]
+  );
+
+  const stop = useCallback(() => {
+    if (!supported) return;
+    window.speechSynthesis.cancel();
+    setSpeaking(false);
+  }, [supported]);
+
+  return {
+    speak,
+    stop,
+    speaking,
+    supported,
+  };
+};
