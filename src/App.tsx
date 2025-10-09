@@ -25,7 +25,7 @@ function App() {
   });
 
   const [isDarkMode, setIsDarkMode] = useState(false);
-  const { speak, speaking, supported } = useSpeech();
+  const { speak } = useSpeech();
 
   const currentQuestion = questions[state.currentQuestion];
 
