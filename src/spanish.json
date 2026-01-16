@@ -1,0 +1,502 @@
+[
+  {
+    "number": 1,
+    "question_en": "What is the supreme law of the land?",
+    "question_es": "¿Cuál es la ley suprema del país?",
+    "answer_en": ["the Constitution"],
+    "answer_es": ["la Constitución"]
+  },
+  {
+    "number": 2,
+    "question_en": "What does the Constitution do?",
+    "question_es": "¿Qué hace la Constitución?",
+    "answer_en": [
+      "sets up the government",
+      "defines the government",
+      "protects basic rights of Americans"
+    ],
+    "answer_es": [
+      "establece el gobierno",
+      "define el gobierno",
+      "protege los derechos básicos de los estadounidenses"
+    ]
+  },
+  {
+    "number": 3,
+    "question_en": "The idea of self‑government is in the first three words of the Constitution. What are these words?",
+    "question_es": "La idea de autogobierno está en las tres primeras palabras de la Constitución. ¿Cuáles son estas palabras?",
+    "answer_en": ["We the People"],
+    "answer_es": ["Nosotros el Pueblo"]
+  },
+  {
+    "number": 4,
+    "question_en": "What is an amendment?",
+    "question_es": "¿Qué es una enmienda?",
+    "answer_en": [
+      "a change (to the Constitution)",
+      "an addition (to the Constitution)"
+    ],
+    "answer_es": [
+      "un cambio (a la Constitución)",
+      "una adición (a la Constitución)"
+    ]
+  },
+  {
+    "number": 5,
+    "question_en": "What do we call the first ten amendments to the Constitution?",
+    "question_es": "¿Cómo llamamos a las primeras diez enmiendas de la Constitución?",
+    "answer_en": ["the Bill of Rights"],
+    "answer_es": ["la Carta de Derechos"]
+  },
+  {
+    "number": 6,
+    "question_en": "What is one right or freedom from the First Amendment?",
+    "question_es": "¿Cuál es un derecho o libertad de la Primera Enmienda?",
+    "answer_en": [
+      "speech",
+      "religion",
+      "assembly",
+      "press",
+      "petition the government"
+    ],
+    "answer_es": [
+      "libertad de expresión",
+      "libertad de religión",
+      "reunión",
+      "prensa",
+      "presentar peticiones al gobierno"
+    ]
+  },
+  {
+    "number": 7,
+    "question_en": "How many amendments does the Constitution have?",
+    "question_es": "¿Cuántas enmiendas tiene la Constitución?",
+    "answer_en": ["twenty‑seven (27)"],
+    "answer_es": ["veintisiete (27)"]
+  },
+  {
+    "number": 8,
+    "question_en": "What did the Declaration of Independence do?",
+    "question_es": "¿Qué hizo la Declaración de Independencia?",
+    "answer_en": [
+      "announced our independence (from Great Britain)",
+      "declared our independence (from Great Britain)",
+      "said that the United States is free (from Great Britain)"
+    ],
+    "answer_es": [
+      "anunció nuestra independencia (del Reino Unido)",
+      "declaró nuestra independencia (del Reino Unido)",
+      "dijo que los Estados Unidos son libres (del Reino Unido)"
+    ]
+  },
+  {
+    "number": 9,
+    "question_en": "What are two rights in the Declaration of Independence?",
+    "question_es": "¿Cuáles son dos derechos en la Declaración de Independencia?",
+    "answer_en": ["life", "liberty", "pursuit of happiness"],
+    "answer_es": ["vida", "libertad", "la búsqueda de la felicidad"]
+  },
+  {
+    "number": 10,
+    "question_en": "What is freedom of religion?",
+    "question_es": "¿Qué es la libertad de religión?",
+    "answer_en": ["You can practice any religion, or not practice a religion."],
+    "answer_es": [
+      "Puedes practicar cualquier religión, o no practicar ninguna religión."
+    ]
+  },
+  {
+    "number": 11,
+    "question_en": "What is the economic system in the United States?",
+    "question_es": "¿Cuál es el sistema económico en los Estados Unidos?",
+    "answer_en": ["capitalist economy", "market economy"],
+    "answer_es": ["economía capitalista", "economía de mercado"]
+  },
+  {
+    "number": 12,
+    "question_en": "What is the ‘rule of law’?",
+    "question_es": "¿Qué es el “estado de derecho” (rule of law)?",
+    "answer_en": [
+      "Everyone must follow the law.",
+      "Leaders must obey the law.",
+      "Government must obey the law.",
+      "No one is above the law."
+    ],
+    "answer_es": [
+      "Todos deben obedecer la ley.",
+      "Los líderes deben obedecer la ley.",
+      "El gobierno debe obedecer la ley.",
+      "Nadie está por encima de la ley."
+    ]
+  },
+  {
+    "number": 13,
+    "question_en": "Name one branch or part of the government.",
+    "question_es": "Nombra una rama o parte del gobierno.",
+    "answer_en": [
+      "Congress",
+      "legislative",
+      "President",
+      "executive",
+      "the courts",
+      "judicial"
+    ],
+    "answer_es": [
+      "Congreso",
+      "legislativo",
+      "Presidente",
+      "ejecutivo",
+      "los tribunales",
+      "judicial"
+    ]
+  },
+  {
+    "number": 14,
+    "question_en": "What stops one branch of government from becoming too powerful?",
+    "question_es": "¿Qué impide que una rama del gobierno tenga demasiado poder?",
+    "answer_en": ["checks and balances", "separation of powers"],
+    "answer_es": ["controles y equilibrios", "separación de poderes"]
+  },
+  {
+    "number": 15,
+    "question_en": "Who is in charge of the executive branch?",
+    "question_es": "¿Quién está a cargo de la rama ejecutiva?",
+    "answer_en": ["the President"],
+    "answer_es": ["el Presidente"]
+  },
+  {
+    "number": 16,
+    "question_en": "Who makes federal laws?",
+    "question_es": "¿Quién hace las leyes federales?",
+    "answer_en": [
+      "Congress",
+      "Senate and House (of Representatives)",
+      "(U.S. or national) legislature"
+    ],
+    "answer_es": [
+      "Congreso",
+      "Senado y Cámara (de Representantes)",
+      "legislatura (de EE.UU. o nacional)"
+    ]
+  },
+  {
+    "number": 17,
+    "question_en": "What are the two parts of the U.S. Congress?",
+    "question_es": "¿Cuáles son las dos partes del Congreso de EE.UU.?",
+    "answer_en": ["the Senate and House (of Representatives)"],
+    "answer_es": ["el Senado y la Cámara (de Representantes)"]
+  },
+  {
+    "number": 18,
+    "question_en": "How many U.S. Senators are there?",
+    "question_es": "¿Cuántos Senadores de EE.UU. hay?",
+    "answer_en": ["one hundred (100)"],
+    "answer_es": ["cien (100)"]
+  },
+  {
+    "number": 19,
+    "question_en": "We elect a U.S. Senator for how many years?",
+    "question_es": "¿Por cuántos años elegimos a un Senador de EE.UU.?",
+    "answer_en": ["six (6)"],
+    "answer_es": ["seis (6)"]
+  },
+  {
+    "number": 20,
+    "question_en": "Who is one of your state’s U.S. Senators now?",
+    "question_es": "¿Quién es uno de los Senadores de EE.UU. de su estado ahora?",
+    "answer_en": ["Answers will vary."],
+    "answer_es": ["Las respuestas variarán."]
+  },
+  {
+    "number": 21,
+    "question_en": "The House of Representatives has how many voting members?",
+    "question_es": "¿Cuántos miembros con derecho a voto tiene la Cámara de Representantes?",
+    "answer_en": ["four hundred thirty‑five (435)"],
+    "answer_es": ["cuatrocientos treinta y cinco (435)"]
+  },
+  {
+    "number": 22,
+    "question_en": "We elect a U.S. Representative for how many years?",
+    "question_es": "¿Por cuántos años elegimos a un Representante de EE.UU.?",
+    "answer_en": ["two (2)"],
+    "answer_es": ["dos (2)"]
+  },
+  {
+    "number": 23,
+    "question_en": "Name your U.S. Representative.",
+    "question_es": "Nombre a su Representante de EE.UU.",
+    "answer_en": ["Answers will vary."],
+    "answer_es": ["Las respuestas variarán."]
+  },
+  {
+    "number": 24,
+    "question_en": "Who does a U.S. Senator represent?",
+    "question_es": "¿A quién representa un Senador de EE.UU.?",
+    "answer_en": ["all people of the state"],
+    "answer_es": ["todas las personas del estado"]
+  },
+  {
+    "number": 25,
+    "question_en": "Why do some states have more Representatives than other states?",
+    "question_es": "¿Por qué algunos estados tienen más Representantes que otros estados?",
+    "answer_en": [
+      "because of the state's population",
+      "because they have more people"
+    ],
+    "answer_es": ["por la población del estado", "porque tienen más personas"]
+  },
+  {
+    "number": 26,
+    "question_en": "We elect a President for how many years?",
+    "question_es": "¿Por cuántos años elegimos a un Presidente?",
+    "answer_en": ["four (4)"],
+    "answer_es": ["cuatro (4)"]
+  },
+  {
+    "number": 27,
+    "question_en": "In what month do we vote for President?",
+    "question_es": "¿En qué mes votamos por el Presidente?",
+    "answer_en": ["November"],
+    "answer_es": ["noviembre"]
+  },
+  {
+    "number": 28,
+    "question_en": "What is the name of the President of the United States now?",
+    "question_es": "¿Cuál es el nombre del Presidente de los Estados Unidos ahora?",
+    "answer_en": ["Answers will vary."],
+    "answer_es": ["Las respuestas variarán."]
+  },
+  {
+    "number": 29,
+    "question_en": "What is the name of the Vice President of the United States now?",
+    "question_es": "¿Cuál es el nombre del Vicepresidente de los Estados Unidos ahora?",
+    "answer_en": ["Answers will vary."],
+    "answer_es": ["Las respuestas variarán."]
+  },
+  {
+    "number": 30,
+    "question_en": "If the President can no longer serve, who becomes President?",
+    "question_es": "Si el Presidente ya no puede servir, ¿quién se convierte en Presidente?",
+    "answer_en": ["the Vice President"],
+    "answer_es": ["el Vicepresidente"]
+  },
+  {
+    "number": 31,
+    "question_en": "If both the President and the Vice President can no longer serve, who becomes President?",
+    "question_es": "Si tanto el Presidente como el Vicepresidente ya no pueden servir, ¿quién se convierte en Presidente?",
+    "answer_en": ["the Speaker of the House"],
+    "answer_es": ["el Presidente de la Cámara de Representantes"]
+  },
+  {
+    "number": 32,
+    "question_en": "Who is the Commander in Chief of the military?",
+    "question_es": "¿Quién es el Comandante en Jefe del ejército?",
+    "answer_en": ["the President"],
+    "answer_es": ["el Presidente"]
+  },
+  {
+    "number": 33,
+    "question_en": "Who signs bills to become laws?",
+    "question_es": "¿Quién firma los proyectos de ley para convertirse en leyes?",
+    "answer_en": ["the President"],
+    "answer_es": ["el Presidente"]
+  },
+  {
+    "number": 34,
+    "question_en": "Who vetoes bills?",
+    "question_es": "¿Quién veta los proyectos de ley?",
+    "answer_en": ["the President"],
+    "answer_es": ["el Presidente"]
+  },
+  {
+    "number": 35,
+    "question_en": "What does the President's Cabinet do?",
+    "question_es": "¿Qué hace el Gabinete del Presidente?",
+    "answer_en": ["advises the President"],
+    "answer_es": ["aconseja al Presidente"]
+  },
+  {
+    "number": 36,
+    "question_en": "What are two Cabinet-level positions?",
+    "question_es": "¿Cuáles son dos cargos a nivel de Gabinete?",
+    "answer_en": [
+      "Secretary of Agriculture",
+      "Secretary of Commerce",
+      "Secretary of Defense",
+      "Secretary of Education",
+      "Secretary of Energy",
+      "Secretary of Health and Human Services",
+      "Secretary of Homeland Security",
+      "Secretary of Housing and Urban Development",
+      "Secretary of Interior",
+      "Secretary of Labor",
+      "Secretary of State",
+      "Secretary of Transportation",
+      "Secretary of Treasury",
+      "Secretary of Veterans Affairs",
+      "Attorney General",
+      "Vice President"
+    ],
+    "answer_es": [
+      "Secretario de Agricultura",
+      "Secretario de Comercio",
+      "Secretario de Defensa",
+      "Secretario de Educación",
+      "Secretario de Energía",
+      "Secretario de Salud y Servicios Humanos",
+      "Secretario de Seguridad Nacional",
+      "Secretario de Vivienda y Desarrollo Urbano",
+      "Secretario del Interior",
+      "Secretario de Trabajo",
+      "Secretario de Estado",
+      "Secretario de Transporte",
+      "Secretario del Tesoro",
+      "Secretario de Asuntos de Veteranos",
+      "Fiscal General",
+      "Vicepresidente"
+    ]
+  },
+  {
+    "number": 37,
+    "question_en": "What does the judicial branch do?",
+    "question_es": "¿Qué hace la rama judicial?",
+    "answer_en": [
+      "reviews laws",
+      "explains laws",
+      "resolves disputes",
+      "decides if a law goes against the Constitution"
+    ],
+    "answer_es": [
+      "revisa leyes",
+      "explica leyes",
+      "resuelve disputas",
+      "decide si una ley va en contra de la Constitución"
+    ]
+  },
+  {
+    "number": 38,
+    "question_en": "What is the highest court in the United States?",
+    "question_es": "¿Cuál es el tribunal más alto de los Estados Unidos?",
+    "answer_en": ["the Supreme Court"],
+    "answer_es": ["la Corte Suprema"]
+  },
+  {
+    "number": 39,
+    "question_en": "How many justices are on the Supreme Court?",
+    "question_es": "¿Cuántos jueces hay en la Corte Suprema?",
+    "answer_en": ["nine (9)"],
+    "answer_es": ["nueve (9)"]
+  },
+  {
+    "number": 40,
+    "question_en": "Who is the Chief Justice of the United States now?",
+    "question_es": "¿Quién es el Presidente de la Corte Suprema de los Estados Unidos ahora?",
+    "answer_en": ["Answers will vary."],
+    "answer_es": ["Las respuestas variarán."]
+  },
+  {
+    "number": 41,
+    "question_en": "Under our Constitution, some powers belong to the federal government. What is one power of the federal government?",
+    "question_es": "Bajo nuestra Constitución, algunos poderes pertenecen al gobierno federal. ¿Cuál es un poder del gobierno federal?",
+    "answer_en": [
+      "to print money",
+      "to declare war",
+      "to create an army",
+      "to make treaties"
+    ],
+    "answer_es": [
+      "imprimir dinero",
+      "declarar la guerra",
+      "crear un ejército",
+      "hacer tratados"
+    ]
+  },
+  {
+    "number": 42,
+    "question_en": "Under our Constitution, some powers belong to the states. What is one power of the states?",
+    "question_es": "Bajo nuestra Constitución, algunos poderes pertenecen a los estados. ¿Cuál es un poder de los estados?",
+    "answer_en": [
+      "provide schooling and education",
+      "provide protection (police)",
+      "provide safety (fire departments)",
+      "give a driver's license",
+      "approve zoning and land use"
+    ],
+    "answer_es": [
+      "proporcionar educación",
+      "proporcionar protección (policía)",
+      "proporcionar seguridad (bomberos)",
+      "dar licencia de conducir",
+      "aprobar zonificación y uso de la tierra"
+    ]
+  },
+  {
+    "number": 43,
+    "question_en": "Who is the Governor of your state now?",
+    "question_es": "¿Quién es el Gobernador de su estado ahora?",
+    "answer_en": ["Answers will vary."],
+    "answer_es": ["Las respuestas variarán."]
+  },
+  {
+    "number": 44,
+    "question_en": "What is the capital of your state?",
+    "question_es": "¿Cuál es la capital de su estado?",
+    "answer_en": ["Answers will vary."],
+    "answer_es": ["Las respuestas variarán."]
+  },
+  {
+    "number": 45,
+    "question_en": "What are the two major political parties in the United States?",
+    "question_es": "¿Cuáles son los dos principales partidos políticos en los Estados Unidos?",
+    "answer_en": ["Democratic and Republican"],
+    "answer_es": ["Demócrata y Republicano"]
+  },
+  {
+    "number": 46,
+    "question_en": "What is the political party of the President now?",
+    "question_es": "¿Cuál es el partido político del Presidente ahora?",
+    "answer_en": ["Answers will vary."],
+    "answer_es": ["Las respuestas variarán."]
+  },
+  {
+    "number": 47,
+    "question_en": "What is the name of the Speaker of the House of Representatives now?",
+    "question_es": "¿Cuál es el nombre del Presidente de la Cámara de Representantes ahora?",
+    "answer_en": ["Answers will vary."],
+    "answer_es": ["Las respuestas variarán."]
+  },
+  {
+    "number": 48,
+    "question_en": "There are four amendments to the Constitution about who can vote. Describe one of them.",
+    "question_es": "Hay cuatro enmiendas a la Constitución sobre quién puede votar. Describe una de ellas.",
+    "answer_en": [
+      "Citizens 18 and older can vote",
+      "You don’t have to pay to vote",
+      "Any citizen can vote (women and men can vote)",
+      "A male citizen of any race can vote"
+    ],
+    "answer_es": [
+      "Los ciudadanos de 18 años o más pueden votar",
+      "No tienes que pagar para votar",
+      "Cualquier ciudadano puede votar (mujeres y hombres pueden votar)",
+      "Un ciudadano varón de cualquier raza puede votar"
+    ]
+  },
+  {
+    "number": 49,
+    "question_en": "What is one responsibility that is only for United States citizens?",
+    "question_es": "¿Cuál es una responsabilidad que es solo para ciudadanos de Estados Unidos?",
+    "answer_en": ["serve on a jury", "vote in a federal election"],
+    "answer_es": ["servir en un jurado", "votar en una elección federal"]
+  },
+  {
+    "number": 50,
+    "question_en": "Name one right only for United States citizens.",
+    "question_es": "Nombre un derecho solo para ciudadanos de Estados Unidos.",
+    "answer_en": ["vote in a federal election", "run for federal office"],
+    "answer_es": [
+      "votar en una elección federal",
+      "postularse para un cargo federal"
+    ]
+  }
+]

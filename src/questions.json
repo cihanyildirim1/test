@@ -453,16 +453,16 @@
       {
         "number": 43,
         "question_en": "Who is the Governor of your state now?",
-        "answer_en": ["Henry McMaster"],
+        "answer_en": ["Check your state"],
         "question_tr": "Eyaletinizin şu anki Valisi kimdir?",
-        "answer_tr": ["Henry McMaster"]
+        "answer_tr": ["Check your state"]
       },
       {
         "number": 44,
         "question_en": "What is the capital of your state?",
-        "answer_en": ["Columbia"],
+        "answer_en": ["Check your state"],
         "question_tr": "Eyaletinizin başkenti nedir?",
-        "answer_tr": ["Columbia"]
+        "answer_tr": ["Check your state"]
       },
       {
         "number": 45,
@@ -696,9 +696,9 @@
       {
         "number": 62,
         "question_en": "Who wrote the Declaration of Independence?",
-        "answer_en": ["(Thomas) Jefferson"],
+        "answer_en": ["Thomas Jefferson"],
         "question_tr": "Bağımsızlık Bildirgesi'ni (Declaration of Independence) kim yazdı?",
-        "answer_tr": ["(Thomas) Jefferson"]
+        "answer_tr": ["Thomas Jefferson"]
       },
       {
         "number": 63,

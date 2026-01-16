@@ -1,0 +1,240 @@
+.landing-page {
+  min-height: 100vh;
+  background: var(--bg-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  animation: fadeIn 0.6s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.landing-content {
+  max-width: 1200px;
+  width: 100%;
+}
+
+.hero-section {
+  text-align: center;
+  margin-bottom: 3rem;
+  animation: slideDown 0.6s ease-out;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.main-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 0 0 1rem 0;
+  line-height: 1.2;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  color: var(--text-secondary);
+  margin: 0;
+  font-weight: 400;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+  animation: fadeInUp 0.8s ease-out 0.2s both;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.feature-card {
+  background: var(--card-bg);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px var(--card-shadow);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid transparent;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px var(--card-shadow);
+  border-color: var(--accent-color);
+}
+
+.feature-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.feature-card h3 {
+  color: var(--text-primary);
+  font-size: 1.25rem;
+  margin: 0 0 0.75rem 0;
+  font-weight: 600;
+}
+
+.feature-card p {
+  color: var(--text-secondary);
+  margin: 0;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+.info-section {
+  background: var(--bg-secondary);
+  padding: 2.5rem;
+  border-radius: 12px;
+  margin-bottom: 3rem;
+  animation: fadeInUp 0.8s ease-out 0.4s both;
+}
+
+.info-section h2 {
+  color: var(--text-primary);
+  font-size: 1.75rem;
+  margin: 0 0 1.25rem 0;
+  font-weight: 600;
+}
+
+.info-section p {
+  color: var(--text-primary);
+  line-height: 1.8;
+  margin: 0 0 1rem 0;
+  font-size: 1rem;
+}
+
+.info-section ul {
+  color: var(--text-primary);
+  line-height: 1.8;
+  margin: 1rem 0 0 0;
+  padding-left: 2rem;
+}
+
+.info-section li {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.start-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto 2rem;
+  padding: 1.25rem 2.5rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  background: var(--accent-color);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(100, 108, 255, 0.3);
+  animation: fadeInUp 0.8s ease-out 0.6s both;
+}
+
+.start-button:hover {
+  background: var(--accent-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(100, 108, 255, 0.4);
+}
+
+.start-button:active {
+  transform: translateY(0);
+}
+
+.dark .start-button {
+  box-shadow: 0 4px 12px rgba(116, 123, 255, 0.4);
+}
+
+.dark .start-button:hover {
+  box-shadow: 0 6px 20px rgba(116, 123, 255, 0.5);
+}
+
+.button-arrow {
+  font-size: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.start-button:hover .button-arrow {
+  transform: translateX(5px);
+}
+
+.footer-note {
+  text-align: center;
+  padding: 2rem;
+  background: var(--card-bg);
+  border-radius: 12px;
+  border-left: 4px solid var(--accent-color);
+  animation: fadeInUp 0.8s ease-out 0.8s both;
+}
+
+.footer-note p {
+  color: var(--text-primary);
+  margin: 0;
+  line-height: 1.8;
+  font-size: 1rem;
+}
+
+.footer-note strong {
+  color: var(--accent-color);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .main-title {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .features-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .feature-card {
+    padding: 1.5rem;
+  }
+
+  .info-section {
+    padding: 1.5rem;
+  }
+
+  .start-button {
+    font-size: 1.1rem;
+    padding: 1rem 2rem;
+  }
+}

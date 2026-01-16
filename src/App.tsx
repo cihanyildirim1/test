@@ -4,6 +4,7 @@ import { flattenQuestions } from "./utils/questionUtils";
 import type { QuestionState } from "./types";
 import { Progress } from "./components/Progress";
 import { QuestionsList } from "./components/QuestionsList";
+import { LandingPage } from "./components/LandingPage";
 import { useSpeech } from "./hooks/useSpeech";
 import "./App.css";
 
@@ -15,6 +16,7 @@ const truncateText = (text: string, maxLength: number) => {
 const questions = flattenQuestions(questionsData);
 
 function App() {
+  const [showLanding, setShowLanding] = useState(true);
   const [state, setState] = useState<QuestionState>({
     currentQuestion: 0,
     score: 0,
@@ -24,10 +26,18 @@ function App() {
     showNavigator: false,
   });
 
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(true);
   const { speak } = useSpeech();
 
   const currentQuestion = questions[state.currentQuestion];
+
+  if (showLanding) {
+    return (
+      <div className={`app ${isDarkMode ? "dark" : "light"}`}>
+        <LandingPage onStart={() => setShowLanding(false)} />
+      </div>
+    );
+  }
 
   return (
     <div className={`app ${isDarkMode ? "dark" : "light"}`}>
