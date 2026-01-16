@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import questionsData from "./questions.json";
 import { flattenQuestions } from "./utils/questionUtils";
 import type { QuestionState } from "./types";
@@ -30,6 +30,11 @@ function App() {
   const { speak } = useSpeech();
 
   const currentQuestion = questions[state.currentQuestion];
+
+  useEffect(() => {
+    // Ensure the landing page is shown when the app first mounts (e.g. on refresh)
+    setShowLanding(true);
+  }, []);
 
   if (showLanding) {
     return (

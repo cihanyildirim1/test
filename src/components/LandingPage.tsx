@@ -13,6 +13,10 @@ export const LandingPage = ({ onStart }: LandingPageProps) => {
           <p className='subtitle'>
             Master the 100 civics questions for your naturalization interview
           </p>
+          <p className='built-for'>
+            This tool is built for Turkish people but can be used by people of
+            any nation.
+          </p>
         </div>
 
         <div className='features-grid'>
